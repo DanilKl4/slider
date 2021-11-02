@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css" type="text/css">
+    <script src="./js/index.js"></script>
+    <title>Slider</title>
+</head>
+<body>
+    <div class="main" id="sl">
+        <div class="slider slide-active">
+            <div class="slide" style="background-image: url('./img/1-img.jpg');">
+                <div class="container">
+                    <h1>Новая коллекция 2021</h1>
+                    <p>Уже сейчас вы можете сделать предзаказ</p>
+                    <a href="#">Купить сейчас</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider slide-inactive">
+            <div class="slide" style="background-image: url('./img/2-img.jpg');">
+                <div class="container">
+                    <h1>Новая коллекция 2021</h1>
+                    <p>Уже сейчас вы можете сделать предзаказ</p>
+                    <a href="#">Купить сейчас</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider slide-inactive">
+            <div class="slide" style="background-image: url('./img/3-img.jpg');">
+                <div class="container">
+                    <h1>Новая коллекция 2021</h1>
+                    <p>Уже сейчас вы можете сделать предзаказ</p>
+                    <a href="#">Купить сейчас</a>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="prev" onclick="scrolling('left')" style="background-image: url('./img/next.png');"></div>
+            <div class="next" onclick="scrolling('right')" style="background-image: url('./img/prev.png');"></div>
+        </div>
+    </div>
+</body>
+</html>
